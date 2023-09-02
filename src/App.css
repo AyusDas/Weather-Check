@@ -1,0 +1,146 @@
+.container{
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 5px rgb(169, 169, 169);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header1 {
+    width: 100%;
+    padding-top: 10px;
+
+    font-family: 'Space Mono', monospace;
+    font-size: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+}
+
+.date-Time {
+    font-family: 'Space Mono', monospace;
+    font-size: 1rem;   
+}
+
+.hide {
+    display: none;
+}
+
+.dayTime {
+    background-image: linear-gradient(to bottom,#F7C8E0,#82C3EC);
+    color: #151515;
+}
+
+.nightTime {
+    background-image: linear-gradient(to bottom, #19376D,#1C82AD);
+    color: #ffffff;
+}
+
+.myImg {
+    font-size: 5rem;
+}
+
+.showMain {
+    margin-top: 30px;
+    padding-top: 5px;
+    font-family: 'Space Mono', monospace;
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+}
+
+.detailsBox {
+    position: relative;
+    top: 20%;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.1rem;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myIcons {
+    font-size: 1.5rem;
+    margin-top: 2px;
+}
+
+.divAlign {
+    display: flex;
+    align-items: center;
+}
+
+.state {
+    font-size: 1.5rem;
+}
+
+.heading {
+    font-family: 'Space Mono', monospace;
+    font-size: 2rem;
+    position:absolute;
+    right: 50%;
+    transform: translateX(50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myIn {
+    display: flex;
+    gap : 1rem;
+    position:absolute;
+    right: 50%;
+    transform: translateX(50%);
+    top: 10%;
+}
+
+.myInput {
+    padding: 10px 25px 10px 10px;
+    border-radius: 0.5rem;
+    border-style: none;
+    box-shadow: 2px 2px 5px rgb(169, 169, 169);
+    font-size: 1.3rem;
+    font-family: 'Space Mono', monospace;
+}
+
+.mybtn {
+    font-size: 1.3rem;
+    font-family: 'Space Mono', monospace;
+    border-style: none;
+    box-shadow: 2px 2px 5px rgb(169, 169, 169);
+    color: white;
+    border-radius: 0.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: linear-gradient(to bottom, rgb(42, 95, 255), rgb(157, 66, 249));
+}
+
+.extra {
+    display: block;
+}
+
+@media (max-width: 560px) {
+    .extra{
+        display: none;
+    }    
+}
+
+.mySize {
+    width: 90%;
+}
+
+
+@media (min-width: 560px) {
+    .mySize{
+        width : 60%;
+    }    
+}
